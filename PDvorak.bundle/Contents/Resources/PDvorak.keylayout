@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 22:44 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 22:48 (GMT+5)-->
 <keyboard group="126" id="-22911" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -1117,31 +1117,37 @@
 			<when state="deep" output=",&#x000A;"/>
 			<when state="five" output="5&#x000A;"/>
 			<when state="seven" output="7&#x000A;"/>
+			<when state="three" output="3&#x000A;"/>
 		</action>
 		<action id="!">
 			<when state="none" output="!"/>
 			<when state="five" output="58"/>
 			<when state="seven" output="78"/>
+			<when state="three" output="38"/>
 		</action>
 		<action id="(">
 			<when state="none" output="("/>
 			<when state="five" output="51"/>
 			<when state="seven" output="71"/>
+			<when state="three" output="31"/>
 		</action>
 		<action id=")">
 			<when state="none" output=")"/>
 			<when state="five" output="52"/>
 			<when state="seven" output="72"/>
+			<when state="three" output="32"/>
 		</action>
 		<action id="*">
 			<when state="none" output="*"/>
 			<when state="five" output="50"/>
 			<when state="seven" output="70"/>
+			<when state="three" output="30"/>
 		</action>
 		<action id="+">
 			<when state="none" output="+"/>
 			<when state="five" output="54"/>
 			<when state="seven" output="74"/>
+			<when state="three" output="34"/>
 		</action>
 		<action id=",">
 			<when state="none" next="deep"/>
@@ -1166,6 +1172,7 @@
 			<when state="deep" output=", "/>
 			<when state="five" output="5 "/>
 			<when state="seven" output="7 "/>
+			<when state="three" output="3 "/>
 		</action>
 		<action id="10">
 			<when state="none" output="o"/>
@@ -1326,17 +1333,20 @@
 			<when state="none" output="="/>
 			<when state="five" output="59"/>
 			<when state="seven" output="79"/>
+			<when state="three" output="39"/>
 		</action>
 		<action id="[">
 			<when state="none" output="["/>
 			<when state="deep" next="seven"/>
 			<when state="five" output="57"/>
 			<when state="seven" output="77"/>
+			<when state="three" output="37"/>
 		</action>
 		<action id="]">
 			<when state="none" output="]"/>
 			<when state="five" output="56"/>
 			<when state="seven" output="76"/>
+			<when state="three" output="36"/>
 		</action>
 		<action id="b">
 			<when state="none" output="b"/>
@@ -1401,11 +1411,14 @@
 			<when state="deep" next="five"/>
 			<when state="five" output="55"/>
 			<when state="seven" output="75"/>
+			<when state="three" output="35"/>
 		</action>
 		<action id="}">
 			<when state="none" output="}"/>
+			<when state="deep" next="three"/>
 			<when state="five" output="53"/>
 			<when state="seven" output="73"/>
+			<when state="three" output="33"/>
 		</action>
 	</actions>
 	<terminators>
@@ -1419,5 +1432,6 @@
 		<when state="deep" output=","/>
 		<when state="five" output="5"/>
 		<when state="seven" output="7"/>
+		<when state="three" output="3"/>
 	</terminators>
 </keyboard>
