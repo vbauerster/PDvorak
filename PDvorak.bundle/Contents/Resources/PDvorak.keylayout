@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 23:01 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 23:03 (GMT+5)-->
 <keyboard group="126" id="-22911" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -1120,6 +1120,7 @@
 			<when state="nine" output="9&#x000A;"/>
 			<when state="one" output="1&#x000A;"/>
 			<when state="seven" output="7&#x000A;"/>
+			<when state="six" output="6&#x000A;"/>
 			<when state="three" output="3&#x000A;"/>
 			<when state="two" output="2&#x000A;"/>
 			<when state="zero" output="0&#x000A;"/>
@@ -1131,6 +1132,7 @@
 			<when state="nine" output="98"/>
 			<when state="one" output="18"/>
 			<when state="seven" output="78"/>
+			<when state="six" output="68"/>
 			<when state="three" output="38"/>
 			<when state="two" output="28"/>
 			<when state="zero" output="08"/>
@@ -1143,6 +1145,7 @@
 			<when state="nine" output="91"/>
 			<when state="one" output="11"/>
 			<when state="seven" output="71"/>
+			<when state="six" output="61"/>
 			<when state="three" output="31"/>
 			<when state="two" output="21"/>
 			<when state="zero" output="01"/>
@@ -1155,6 +1158,7 @@
 			<when state="nine" output="92"/>
 			<when state="one" output="12"/>
 			<when state="seven" output="72"/>
+			<when state="six" output="62"/>
 			<when state="three" output="32"/>
 			<when state="two" output="22"/>
 			<when state="zero" output="02"/>
@@ -1167,6 +1171,7 @@
 			<when state="nine" output="90"/>
 			<when state="one" output="10"/>
 			<when state="seven" output="70"/>
+			<when state="six" output="60"/>
 			<when state="three" output="30"/>
 			<when state="two" output="20"/>
 			<when state="zero" output="00"/>
@@ -1179,6 +1184,7 @@
 			<when state="nine" output="94"/>
 			<when state="one" output="14"/>
 			<when state="seven" output="74"/>
+			<when state="six" output="64"/>
 			<when state="three" output="34"/>
 			<when state="two" output="24"/>
 			<when state="zero" output="04"/>
@@ -1209,6 +1215,7 @@
 			<when state="nine" output="9 "/>
 			<when state="one" output="1 "/>
 			<when state="seven" output="7 "/>
+			<when state="six" output="6 "/>
 			<when state="three" output="3 "/>
 			<when state="two" output="2 "/>
 			<when state="zero" output="0 "/>
@@ -1376,6 +1383,7 @@
 			<when state="nine" output="99"/>
 			<when state="one" output="19"/>
 			<when state="seven" output="79"/>
+			<when state="six" output="69"/>
 			<when state="three" output="39"/>
 			<when state="two" output="29"/>
 			<when state="zero" output="09"/>
@@ -1388,17 +1396,20 @@
 			<when state="nine" output="97"/>
 			<when state="one" output="17"/>
 			<when state="seven" output="77"/>
+			<when state="six" output="67"/>
 			<when state="three" output="37"/>
 			<when state="two" output="27"/>
 			<when state="zero" output="07"/>
 		</action>
 		<action id="]">
 			<when state="none" output="]"/>
+			<when state="deep" next="six"/>
 			<when state="five" output="56"/>
 			<when state="four" output="46"/>
 			<when state="nine" output="96"/>
 			<when state="one" output="16"/>
 			<when state="seven" output="76"/>
+			<when state="six" output="66"/>
 			<when state="three" output="36"/>
 			<when state="two" output="26"/>
 			<when state="zero" output="06"/>
@@ -1469,6 +1480,7 @@
 			<when state="nine" output="95"/>
 			<when state="one" output="15"/>
 			<when state="seven" output="75"/>
+			<when state="six" output="65"/>
 			<when state="three" output="35"/>
 			<when state="two" output="25"/>
 			<when state="zero" output="05"/>
@@ -1481,6 +1493,7 @@
 			<when state="nine" output="93"/>
 			<when state="one" output="13"/>
 			<when state="seven" output="73"/>
+			<when state="six" output="63"/>
 			<when state="three" output="33"/>
 			<when state="two" output="23"/>
 			<when state="zero" output="03"/>
@@ -1500,6 +1513,7 @@
 		<when state="nine" output="9"/>
 		<when state="one" output="1"/>
 		<when state="seven" output="7"/>
+		<when state="six" output="6"/>
 		<when state="three" output="3"/>
 		<when state="two" output="2"/>
 		<when state="zero" output="0"/>
