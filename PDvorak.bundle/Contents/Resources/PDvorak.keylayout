@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 22:16 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 22:31 (GMT+5)-->
 <keyboard group="126" id="-22911" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -116,7 +116,7 @@
 			<key code="1" action="10"/>
 			<key code="2" action="8"/>
 			<key code="3" action="11"/>
-			<key code="4" output="d"/>
+			<key code="4" action="d"/>
 			<key code="5" action="9"/>
 			<key code="6" output="&#x0027;"/>
 			<key code="7" action="q"/>
@@ -1112,6 +1112,7 @@
 	<actions>
 		<action id="&#x000D;">
 			<when state="none" output="&#x000D;"/>
+			<when state="ampersand" output="&#x0026;&#x000A;"/>
 			<when state="deep" output=",&#x000A;"/>
 		</action>
 		<action id=",">
@@ -1132,6 +1133,7 @@
 			<when state="3" output="ˆ"/>
 			<when state="4" output="˜"/>
 			<when state="5" output="`"/>
+			<when state="ampersand" output="&#x0026; "/>
 			<when state="deep" output=", "/>
 		</action>
 		<action id="10">
@@ -1293,6 +1295,11 @@
 			<when state="none" output="c"/>
 			<when state="deep" output=":"/>
 		</action>
+		<action id="d">
+			<when state="none" output="d"/>
+			<when state="ampersand" output="&#x0026;&#x0026;"/>
+			<when state="deep" next="ampersand"/>
+		</action>
 		<action id="f">
 			<when state="none" output="f"/>
 			<when state="deep" output="`"/>
@@ -1344,6 +1351,7 @@
 		<when state="3" output="ˆ"/>
 		<when state="4" output="˜"/>
 		<when state="5" output="`"/>
+		<when state="ampersand" output="&#x0026;"/>
 		<when state="deep" output=","/>
 	</terminators>
 </keyboard>
