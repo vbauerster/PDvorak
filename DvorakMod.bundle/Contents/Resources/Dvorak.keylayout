@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 19:12 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 19:14 (GMT+5)-->
 <keyboard group="0" id="13081" name="Dvorak" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -931,7 +931,7 @@
 			<key code="48" output="&#x0009;"/>
 			<key code="49" action="1"/>
 			<key code="50" output="`"/>
-			<key code="51" output="&#x0008;"/>
+			<key code="51" output="&#x007F;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="65" output="."/>
