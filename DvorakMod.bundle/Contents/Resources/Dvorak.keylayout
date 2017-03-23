@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 16:39 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 16:54 (GMT+5)-->
 <keyboard group="0" id="13081" name="Dvorak" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -125,7 +125,7 @@
 			<key code="15" output="p"/>
 			<key code="16" output="f"/>
 			<key code="17" action="14"/>
-			<key code="18" output="1"/>
+			<key code="18" output="&#x0026;"/>
 			<key code="19" output="["/>
 			<key code="20" output="{"/>
 			<key code="21" output="}"/>
@@ -161,9 +161,12 @@
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
+			<key code="55" output=""/>
 			<key code="56" output=""/>
 			<key code="57" output=""/>
+			<key code="58" output=""/>
 			<key code="59" output=""/>
+			<key code="63" output=""/>
 			<key code="65" output="."/>
 			<key code="66" output="&#x001D;"/>
 			<key code="67" output="*"/>
@@ -237,7 +240,7 @@
 			<key code="15" output="P"/>
 			<key code="16" output="F"/>
 			<key code="17" action="13"/>
-			<key code="18" output="!"/>
+			<key code="18" output="%"/>
 			<key code="19" output="7"/>
 			<key code="20" output="5"/>
 			<key code="21" output="3"/>
