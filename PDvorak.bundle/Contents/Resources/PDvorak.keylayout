@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 22:34 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 22:41 (GMT+5)-->
 <keyboard group="126" id="-22911" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -131,17 +131,17 @@
 			<key code="16" action="f"/>
 			<key code="17" action="14"/>
 			<key code="18" output="&#x0026;"/>
-			<key code="19" output="["/>
-			<key code="20" output="{"/>
-			<key code="21" output="}"/>
-			<key code="22" output="="/>
-			<key code="23" output="("/>
+			<key code="19" action="["/>
+			<key code="20" action="{"/>
+			<key code="21" action="}"/>
+			<key code="22" action="="/>
+			<key code="23" action="("/>
 			<key code="24" output="$"/>
-			<key code="25" output="+"/>
-			<key code="26" output="*"/>
-			<key code="27" output="!"/>
-			<key code="28" output=")"/>
-			<key code="29" output="]"/>
+			<key code="25" action="+"/>
+			<key code="26" action="*"/>
+			<key code="27" action="!"/>
+			<key code="28" action=")"/>
+			<key code="29" action="]"/>
 			<key code="30" output="^"/>
 			<key code="31" action="r"/>
 			<key code="32" action="g"/>
@@ -1115,6 +1115,27 @@
 			<when state="ampersand" output="&#x0026;&#x000A;"/>
 			<when state="bar" output="|&#x000A;"/>
 			<when state="deep" output=",&#x000A;"/>
+			<when state="seven" output="7&#x000A;"/>
+		</action>
+		<action id="!">
+			<when state="none" output="!"/>
+			<when state="seven" output="78"/>
+		</action>
+		<action id="(">
+			<when state="none" output="("/>
+			<when state="seven" output="71"/>
+		</action>
+		<action id=")">
+			<when state="none" output=")"/>
+			<when state="seven" output="72"/>
+		</action>
+		<action id="*">
+			<when state="none" output="*"/>
+			<when state="seven" output="70"/>
+		</action>
+		<action id="+">
+			<when state="none" output="+"/>
+			<when state="seven" output="74"/>
 		</action>
 		<action id=",">
 			<when state="none" next="deep"/>
@@ -1137,6 +1158,7 @@
 			<when state="ampersand" output="&#x0026; "/>
 			<when state="bar" output="| "/>
 			<when state="deep" output=", "/>
+			<when state="seven" output="7 "/>
 		</action>
 		<action id="10">
 			<when state="none" output="o"/>
@@ -1293,6 +1315,19 @@
 			<when state="3" output="î"/>
 			<when state="5" output="ì"/>
 		</action>
+		<action id="=">
+			<when state="none" output="="/>
+			<when state="seven" output="79"/>
+		</action>
+		<action id="[">
+			<when state="none" output="["/>
+			<when state="deep" next="seven"/>
+			<when state="seven" output="77"/>
+		</action>
+		<action id="]">
+			<when state="none" output="]"/>
+			<when state="seven" output="76"/>
+		</action>
 		<action id="b">
 			<when state="none" output="b"/>
 			<when state="bar" output="||"/>
@@ -1351,6 +1386,14 @@
 			<when state="none" output="z"/>
 			<when state="deep" output="ZZ"/>
 		</action>
+		<action id="{">
+			<when state="none" output="{"/>
+			<when state="seven" output="75"/>
+		</action>
+		<action id="}">
+			<when state="none" output="}"/>
+			<when state="seven" output="73"/>
+		</action>
 	</actions>
 	<terminators>
 		<when state="1" output="´"/>
@@ -1361,5 +1404,6 @@
 		<when state="ampersand" output="&#x0026;"/>
 		<when state="bar" output="|"/>
 		<when state="deep" output=","/>
+		<when state="seven" output="7"/>
 	</terminators>
 </keyboard>
