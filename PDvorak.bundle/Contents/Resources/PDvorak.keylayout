@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 20:29 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-23 at 21:19 (GMT+5)-->
 <keyboard group="126" id="-22911" name="PDvorak" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -14,7 +14,7 @@
 	</layouts>
 	<modifierMap id="f4" defaultIndex="0">
 		<keyMapSelect mapIndex="0">
-			<modifier keys="command?"/>
+			<modifier keys=""/>
 		</keyMapSelect>
 		<keyMapSelect mapIndex="1">
 			<modifier keys="anyShift caps?"/>
