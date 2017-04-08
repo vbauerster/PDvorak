@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-26 at 19:15 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-04-08 at 11:20 (GMT+5)-->
 <keyboard group="126" id="-22911" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -142,7 +142,7 @@
 			<key code="27" action="!"/>
 			<key code="28" action=")"/>
 			<key code="29" action="]"/>
-			<key code="30" output="$"/>
+			<key code="30" output="@"/>
 			<key code="31" action="r"/>
 			<key code="32" action="g"/>
 			<key code="33" output="/"/>
@@ -162,7 +162,7 @@
 			<key code="47" action="v"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" action="1"/>
-			<key code="50" output="`"/>
+			<key code="50" output="$"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -251,7 +251,7 @@
 			<key code="21" output="3"/>
 			<key code="22" output="9"/>
 			<key code="23" output="1"/>
-			<key code="24" output="@"/>
+			<key code="24" output="`"/>
 			<key code="25" output="4"/>
 			<key code="26" output="0"/>
 			<key code="27" output="8"/>
@@ -1000,7 +1000,7 @@
 			<key code="3" action="23"/>
 			<key code="4" output="d"/>
 			<key code="5" action="24"/>
-			<key code="6" output="&#x0027;"/>
+			<key code="6" output="z"/>
 			<key code="7" output="q"/>
 			<key code="8" output="j"/>
 			<key code="9" output="k"/>
@@ -1033,7 +1033,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="26"/>
 			<key code="38" output="h"/>
-			<key code="39" output="z"/>
+			<key code="39" output="&#x0027;"/>
 			<key code="40" output="t"/>
 			<key code="41" output="s"/>
 			<key code="42" output="\"/>
