@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-04-29 at 16:28 (GMT+3)-->
-<keyboard group="126" id="-30756" name="PDvorak" maxout="2">
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-05-23 at 18:53 (GMT+3)-->
+<keyboard group="126" id="-5072" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="1fc" modifiers="f4"/>
@@ -152,14 +152,14 @@
 			<key code="37" action="18"/>
 			<key code="38" action="h"/>
 			<key code="39" action="-"/>
-			<key code="40" output="t"/>
+			<key code="40" action="t"/>
 			<key code="41" action="s"/>
 			<key code="42" output="\"/>
 			<key code="43" output="w"/>
 			<key code="44" action="z"/>
 			<key code="45" action="b"/>
 			<key code="46" action="m"/>
-			<key code="47" action="v"/>
+			<key code="47" output="v"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" action="1"/>
 			<key code="50" output="$"/>
@@ -1476,8 +1476,8 @@
 			<when state="none" output="s"/>
 			<when state="deep" output=":="/>
 		</action>
-		<action id="v">
-			<when state="none" output="v"/>
+		<action id="t">
+			<when state="none" output="t"/>
 			<when state="deep" output="%"/>
 		</action>
 		<action id="z">
