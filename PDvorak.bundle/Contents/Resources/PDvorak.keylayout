@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-05-23 at 18:53 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-06-02 at 15:54 (GMT+3)-->
 <keyboard group="126" id="-5072" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -1268,6 +1268,7 @@
 		<action id="18">
 			<when state="none" output="n"/>
 			<when state="4" output="ñ"/>
+			<when state="deep" output="!="/>
 		</action>
 		<action id="19">
 			<when state="none" next="5"/>
