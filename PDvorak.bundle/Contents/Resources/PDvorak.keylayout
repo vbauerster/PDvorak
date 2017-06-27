@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-06-27 at 13:13 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-06-27 at 14:17 (GMT+3)-->
 <keyboard group="126" id="-5072" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -246,9 +246,9 @@
 			<key code="16" output="F"/>
 			<key code="17" action="13"/>
 			<key code="18" output="%"/>
-			<key code="19" output="5"/>
-			<key code="20" output="7"/>
-			<key code="21" output="6"/>
+			<key code="19" output="7"/>
+			<key code="20" output="5"/>
+			<key code="21" output="3"/>
 			<key code="22" output="9"/>
 			<key code="23" output="1"/>
 			<key code="24" output="`"/>
@@ -256,7 +256,7 @@
 			<key code="26" output="0"/>
 			<key code="27" output="8"/>
 			<key code="28" output="2"/>
-			<key code="29" output="3"/>
+			<key code="29" output="6"/>
 			<key code="30" output="^"/>
 			<key code="31" output="R"/>
 			<key code="32" output="G"/>
