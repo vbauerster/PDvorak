@@ -120,8 +120,8 @@
 			<key code="5" action="9"/>
 			<key code="6" output="&#x0027;"/>
 			<key code="7" action="q"/>
-			<key code="8" action="j"/>
-			<key code="9" action="k"/>
+			<key code="8" output="j"/>
+			<key code="9" output="k"/>
 			<key code="10" output="§"/>
 			<key code="11" output="x"/>
 			<key code="12" output=";"/>
@@ -1334,7 +1334,7 @@
 		</action>
 		<action id="c">
 			<when state="none" output="c"/>
-			<when state="deep" output=":"/>
+			<when state="deep" output="gm"/>
 		</action>
 		<action id="d">
 			<when state="none" output="d"/>
@@ -1352,14 +1352,6 @@
 		<action id="h">
 			<when state="none" output="h"/>
 			<when state="deep" output="&#x0022;"/>
-		</action>
-		<action id="j">
-			<when state="none" output="j"/>
-			<when state="deep" output="L"/>
-		</action>
-		<action id="k">
-			<when state="none" output="k"/>
-			<when state="deep" output="H"/>
 		</action>
 		<action id="m">
 			<when state="none" output="m"/>
