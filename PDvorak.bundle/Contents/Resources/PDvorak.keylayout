@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-10-10 at 15:40 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-10-26 at 17:32 (GMT+3)-->
 <keyboard group="126" id="-5072" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -131,7 +131,7 @@
 			<key code="10" output="§"/>
 			<key code="11" output="x"/>
 			<key code="12" output=";"/>
-			<key code="13" action=","/>
+			<key code="13" output=","/>
 			<key code="14" output="."/>
 			<key code="15" output="p"/>
 			<key code="16" output="f"/>
@@ -139,7 +139,7 @@
 			<key code="18" output="&#x0026;"/>
 			<key code="19" output="["/>
 			<key code="20" output="{"/>
-			<key code="21" output="}"/>
+			<key code="21" action="}"/>
 			<key code="22" action="="/>
 			<key code="23" output="("/>
 			<key code="24" output="#"/>
@@ -154,7 +154,7 @@
 			<key code="33" output="/"/>
 			<key code="34" action="c"/>
 			<key code="35" output="l"/>
-			<key code="36" action="&#x000D;"/>
+			<key code="36" output="&#x000D;"/>
 			<key code="37" action="18"/>
 			<key code="38" action="h"/>
 			<key code="39" action="-"/>
@@ -359,7 +359,7 @@
 			<key code="10" output="§"/>
 			<key code="11" output="x"/>
 			<key code="12" output=";"/>
-			<key code="13" action=","/>
+			<key code="13" output=","/>
 			<key code="14" output="."/>
 			<key code="15" output="p"/>
 			<key code="16" output="f"/>
@@ -1231,21 +1231,9 @@
 		</keyMap>
 	</keyMapSet>
 	<actions>
-		<action id="&#x000D;">
-			<when state="none" output="&#x000D;"/>
-			<when state="deep" output=",&#x000A;"/>
-		</action>
 		<action id="!">
 			<when state="none" output="!"/>
 			<when state="deep" output="!="/>
-		</action>
-		<action id="&#x003C;">
-			<when state="none" output="&#x003C;"/>
-			<when state="deep" output="&#x003C;-"/>
-		</action>
-		<action id="&#x003E;">
-			<when state="none" output="&#x003E;"/>
-			<when state="deep" output="-&#x003E;"/>
 		</action>
 		<action id="*">
 			<when state="none" output="*"/>
@@ -1254,10 +1242,6 @@
 		<action id="+">
 			<when state="none" output="+"/>
 			<when state="deep" output="+="/>
-		</action>
-		<action id=",">
-			<when state="none" next="deep"/>
-			<when state="deep" output="~"/>
 		</action>
 		<action id="-">
 			<when state="none" output="-"/>
@@ -1273,7 +1257,7 @@
 			<when state="3" output="ˆ"/>
 			<when state="4" output="˜"/>
 			<when state="5" output="`"/>
-			<when state="deep" output=", "/>
+			<when state="deep" output="} "/>
 		</action>
 		<action id="10">
 			<when state="none" output="o"/>
@@ -1433,9 +1417,17 @@
 			<when state="5" output="ì"/>
 			<when state="deep" output="&#x0027;^"/>
 		</action>
+		<action id="&#x003C;">
+			<when state="none" output="&#x003C;"/>
+			<when state="deep" output="&#x003C;-"/>
+		</action>
 		<action id="=">
 			<when state="none" output="="/>
 			<when state="deep" output=":="/>
+		</action>
+		<action id="&#x003E;">
+			<when state="none" output="&#x003E;"/>
+			<when state="deep" output="-&#x003E;"/>
 		</action>
 		<action id="B">
 			<when state="none" output="B"/>
@@ -1496,6 +1488,9 @@
 			<when state="none" output="z"/>
 			<when state="deep" output="ZQ"/>
 		</action>
+		<action id="}">
+			<when state="none" next="deep"/>
+		</action>
 	</actions>
 	<terminators>
 		<when state="1" output="´"/>
@@ -1503,6 +1498,6 @@
 		<when state="3" output="ˆ"/>
 		<when state="4" output="˜"/>
 		<when state="5" output="`"/>
-		<when state="deep" output=","/>
+		<when state="deep" output="}"/>
 	</terminators>
 </keyboard>
