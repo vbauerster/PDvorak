@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-10-26 at 17:32 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-10-28 at 20:41 (GMT+3)-->
 <keyboard group="126" id="-5072" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -134,7 +134,7 @@
 			<key code="13" output=","/>
 			<key code="14" output="."/>
 			<key code="15" output="p"/>
-			<key code="16" output="f"/>
+			<key code="16" action="f"/>
 			<key code="17" action="14"/>
 			<key code="18" output="&#x0026;"/>
 			<key code="19" output="["/>
@@ -151,7 +151,7 @@
 			<key code="30" output="@"/>
 			<key code="31" action="r"/>
 			<key code="32" action="g"/>
-			<key code="33" output="/"/>
+			<key code="33" action="/"/>
 			<key code="34" action="c"/>
 			<key code="35" output="l"/>
 			<key code="36" output="&#x000D;"/>
@@ -1247,6 +1247,10 @@
 			<when state="none" output="-"/>
 			<when state="deep" output="-="/>
 		</action>
+		<action id="/">
+			<when state="none" output="/"/>
+			<when state="deep" output="~/"/>
+		</action>
 		<action id="0">
 			<when state="none" next="1"/>
 		</action>
@@ -1451,6 +1455,10 @@
 		<action id="d">
 			<when state="none" output="d"/>
 			<when state="deep" output="&#x0026;"/>
+		</action>
+		<action id="f">
+			<when state="none" output="f"/>
+			<when state="deep" output="\"/>
 		</action>
 		<action id="g">
 			<when state="none" output="g"/>
