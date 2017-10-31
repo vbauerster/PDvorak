@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-10-28 at 22:09 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-10-31 at 23:41 (GMT+3)-->
 <keyboard group="126" id="-5072" name="PDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -138,7 +138,7 @@
 			<key code="17" action="14"/>
 			<key code="18" output="&#x0026;"/>
 			<key code="19" output="["/>
-			<key code="20" output="{"/>
+			<key code="20" action="{"/>
 			<key code="21" action="}"/>
 			<key code="22" action="="/>
 			<key code="23" output="("/>
@@ -1500,8 +1500,13 @@
 			<when state="none" output="z"/>
 			<when state="deep" output="ZQ"/>
 		</action>
+		<action id="{">
+			<when state="none" output="{"/>
+			<when state="deep" output="]}"/>
+		</action>
 		<action id="}">
 			<when state="none" next="deep"/>
+			<when state="deep" output="~"/>
 		</action>
 	</actions>
 	<terminators>
