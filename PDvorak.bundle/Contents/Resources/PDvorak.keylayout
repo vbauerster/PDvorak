@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-09-12 at 12:48 (GMT+3)-->
-<keyboard group="126" id="-5072" name="PDvorak" maxout="1">
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-09-23 at 22:50 (GMT+3)-->
+<keyboard group="126" id="-19681" name="PDvorak" maxout="1">
 	<layouts>
 		<layout first="0" last="0" mapSet="a14" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="1fc" modifiers="f4"/>
@@ -1030,7 +1030,7 @@
 			<key code="21" output="4"/>
 			<key code="22" output="6"/>
 			<key code="23" output="5"/>
-			<key code="24" output="="/>
+			<key code="24" output="+"/>
 			<key code="25" output="9"/>
 			<key code="26" output="7"/>
 			<key code="27" output="-"/>
