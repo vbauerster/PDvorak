@@ -10,6 +10,8 @@
 	<string></string>
 	<key>KLInfo_PDvorak</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.dvorak.pdvorak</string>
 		<key>TISIntendedLanguage</key>
