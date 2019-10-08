@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 18:44 (GMT+5)-->
+<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 18:48 (GMT+5)-->
 <keyboard group="126" id="-19681" name="PDvorak" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -484,7 +484,7 @@
             <key code="34" output="ç"/>
             <key code="35" output="¬"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="16"/>
+            <key code="37" output="˜"/>
             <key code="38" output="˙"/>
             <key code="39" output="–"/>
             <key code="40" output="†"/>
@@ -1126,13 +1126,11 @@
             <when state="none" output=" "/>
             <when state="1" output="´"/>
             <when state="2" output="¨"/>
-            <when state="4" output="˜"/>
         </action>
         <action id="10">
             <when state="none" output="o"/>
             <when state="1" output="ó"/>
             <when state="2" output="ö"/>
-            <when state="4" output="õ"/>
         </action>
         <action id="11">
             <when state="none" output="u"/>
@@ -1150,34 +1148,26 @@
             <when state="none" output="y"/>
             <when state="2" output="ÿ"/>
         </action>
-        <action id="16">
-            <when state="none" next="4"/>
-        </action>
         <action id="17">
             <when state="none" output="N"/>
-            <when state="4" output="Ñ"/>
         </action>
         <action id="18">
             <when state="none" output="n"/>
-            <when state="4" output="ñ"/>
         </action>
         <action id="2">
             <when state="none" output="A"/>
             <when state="1" output="Á"/>
             <when state="2" output="Ä"/>
-            <when state="4" output="Ã"/>
         </action>
         <action id="20">
             <when state="none" output="a"/>
             <when state="1" output="á"/>
             <when state="2" output="ä"/>
-            <when state="4" output="ã"/>
         </action>
         <action id="21">
             <when state="none" output="o"/>
             <when state="1" output="ó"/>
             <when state="2" output="ö"/>
-            <when state="4" output="õ"/>
         </action>
         <action id="22">
             <when state="none" output="e"/>
@@ -1200,25 +1190,21 @@
         </action>
         <action id="26">
             <when state="none" output="n"/>
-            <when state="4" output="ñ"/>
         </action>
         <action id="27">
             <when state="none" output=" "/>
             <when state="1" output="´"/>
             <when state="2" output="¨"/>
-            <when state="4" output="˜"/>
         </action>
         <action id="28">
             <when state="none" output="A"/>
             <when state="1" output="Á"/>
             <when state="2" output="Ä"/>
-            <when state="4" output="Ã"/>
         </action>
         <action id="29">
             <when state="none" output="O"/>
             <when state="1" output="Ó"/>
             <when state="2" output="Ö"/>
-            <when state="4" output="Õ"/>
         </action>
         <action id="3">
             <when state="none" output="E"/>
@@ -1246,13 +1232,11 @@
         </action>
         <action id="34">
             <when state="none" output="N"/>
-            <when state="4" output="Ñ"/>
         </action>
         <action id="35">
             <when state="none" output=" "/>
             <when state="1" output="´"/>
             <when state="2" output="¨"/>
-            <when state="4" output="˜"/>
         </action>
         <action id="4">
             <when state="none" output="I"/>
@@ -1263,7 +1247,6 @@
             <when state="none" output="O"/>
             <when state="1" output="Ó"/>
             <when state="2" output="Ö"/>
-            <when state="4" output="Õ"/>
         </action>
         <action id="6">
             <when state="none" output="U"/>
@@ -1274,7 +1257,6 @@
             <when state="none" output="a"/>
             <when state="1" output="á"/>
             <when state="2" output="ä"/>
-            <when state="4" output="ã"/>
         </action>
         <action id="8">
             <when state="none" output="e"/>
@@ -1290,6 +1272,5 @@
     <terminators>
         <when state="1" output="´"/>
         <when state="2" output="¨"/>
-        <when state="4" output="˜"/>
     </terminators>
 </keyboard>
