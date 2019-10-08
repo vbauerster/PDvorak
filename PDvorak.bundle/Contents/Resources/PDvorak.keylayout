@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 21:42 (GMT+5)-->
+<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 22:12 (GMT+5)-->
 <keyboard group="126" id="-21938" name="PDvorak" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -107,12 +107,12 @@
     </keyMapSet>
     <keyMapSet id="a14">
         <keyMap index="0">
-            <key code="0" action="7"/>
-            <key code="1" action="10"/>
-            <key code="2" action="8"/>
-            <key code="3" action="11"/>
+            <key code="0" output="a"/>
+            <key code="1" output="o"/>
+            <key code="2" output="e"/>
+            <key code="3" output="u"/>
             <key code="4" output="d"/>
-            <key code="5" action="9"/>
+            <key code="5" output="i"/>
             <key code="6" output="&#x0027;"/>
             <key code="7" output="q"/>
             <key code="8" output="j"/>
@@ -124,7 +124,7 @@
             <key code="14" output="."/>
             <key code="15" output="p"/>
             <key code="16" output="f"/>
-            <key code="17" action="14"/>
+            <key code="17" output="y"/>
             <key code="18" output="&#x0026;"/>
             <key code="19" output="["/>
             <key code="20" output="{"/>
@@ -144,7 +144,7 @@
             <key code="34" output="c"/>
             <key code="35" output="l"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="18"/>
+            <key code="37" output="n"/>
             <key code="38" output="h"/>
             <key code="39" output="-"/>
             <key code="40" output="t"/>
@@ -890,12 +890,12 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="7">
-            <key code="0" action="20"/>
-            <key code="1" action="21"/>
-            <key code="2" action="22"/>
-            <key code="3" action="23"/>
+            <key code="0" output="a"/>
+            <key code="1" output="o"/>
+            <key code="2" output="e"/>
+            <key code="3" output="u"/>
             <key code="4" output="d"/>
-            <key code="5" action="24"/>
+            <key code="5" output="i"/>
             <key code="6" output="/"/>
             <key code="7" output="q"/>
             <key code="8" output="j"/>
@@ -907,7 +907,7 @@
             <key code="14" output="."/>
             <key code="15" output="p"/>
             <key code="16" output="f"/>
-            <key code="17" action="25"/>
+            <key code="17" output="y"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
@@ -927,7 +927,7 @@
             <key code="34" output="c"/>
             <key code="35" output="l"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="26"/>
+            <key code="37" output="n"/>
             <key code="38" output="h"/>
             <key code="39" output="&#x0027;"/>
             <key code="40" output="t"/>
@@ -1121,48 +1121,6 @@
     <actions>
         <action id="1">
             <when state="none" output=" "/>
-        </action>
-        <action id="10">
-            <when state="none" output="o"/>
-        </action>
-        <action id="11">
-            <when state="none" output="u"/>
-        </action>
-        <action id="14">
-            <when state="none" output="y"/>
-        </action>
-        <action id="18">
-            <when state="none" output="n"/>
-        </action>
-        <action id="20">
-            <when state="none" output="a"/>
-        </action>
-        <action id="21">
-            <when state="none" output="o"/>
-        </action>
-        <action id="22">
-            <when state="none" output="e"/>
-        </action>
-        <action id="23">
-            <when state="none" output="u"/>
-        </action>
-        <action id="24">
-            <when state="none" output="i"/>
-        </action>
-        <action id="25">
-            <when state="none" output="y"/>
-        </action>
-        <action id="26">
-            <when state="none" output="n"/>
-        </action>
-        <action id="7">
-            <when state="none" output="a"/>
-        </action>
-        <action id="8">
-            <when state="none" output="e"/>
-        </action>
-        <action id="9">
-            <when state="none" output="i"/>
         </action>
     </actions>
 </keyboard>
