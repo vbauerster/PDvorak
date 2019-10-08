@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-04-01 at 10:57 (GMT+3)-->
+<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 18:25 (GMT+5)-->
 <keyboard group="126" id="-19681" name="PDvorak" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -453,7 +453,7 @@
             <key code="2" action="0"/>
             <key code="3" action="12"/>
             <key code="4" output="∂"/>
-            <key code="5" action="15"/>
+            <key code="5" output="ˆ"/>
             <key code="6" output="æ"/>
             <key code="7" output="œ"/>
             <key code="8" output="∆"/>
@@ -1156,9 +1156,6 @@
         <action id="14">
             <when state="none" output="y"/>
             <when state="2" output="ÿ"/>
-        </action>
-        <action id="15">
-            <when state="none" next="3"/>
         </action>
         <action id="16">
             <when state="none" next="4"/>
