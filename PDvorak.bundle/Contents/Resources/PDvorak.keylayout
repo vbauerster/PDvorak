@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 18:25 (GMT+5)-->
+<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 18:41 (GMT+5)-->
 <keyboard group="126" id="-19681" name="PDvorak" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -73,7 +73,6 @@
         </keyMap>
         <keyMap index="3" baseMapSet="a14" baseIndex="3">
             <key code="93" output="\"/>
-            <key code="94" action="19"/>
             <key code="95" output=","/>
             <key code="102" action="1"/>
             <key code="104" action="1"/>
@@ -498,7 +497,7 @@
             <key code="47" output="√"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
-            <key code="50" action="19"/>
+            <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -1167,9 +1166,6 @@
         <action id="18">
             <when state="none" output="n"/>
             <when state="4" output="ñ"/>
-        </action>
-        <action id="19">
-            <when state="none" next="5"/>
         </action>
         <action id="2">
             <when state="none" output="A"/>
