@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 21:15 (GMT+5)-->
+<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 21:28 (GMT+5)-->
 <keyboard group="126" id="-21938" name="PDvorak" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -1005,12 +1005,12 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="8">
-            <key code="0" action="28"/>
-            <key code="1" action="29"/>
-            <key code="2" action="30"/>
-            <key code="3" action="31"/>
+            <key code="0" output="A"/>
+            <key code="1" output="O"/>
+            <key code="2" output="E"/>
+            <key code="3" output="U"/>
             <key code="4" output="D"/>
-            <key code="5" action="32"/>
+            <key code="5" output="I"/>
             <key code="6" output="&#x0022;"/>
             <key code="7" output="Q"/>
             <key code="8" output="J"/>
@@ -1022,7 +1022,7 @@
             <key code="14" output="&#x003E;"/>
             <key code="15" output="P"/>
             <key code="16" output="F"/>
-            <key code="17" action="33"/>
+            <key code="17" output="Y"/>
             <key code="18" output="%"/>
             <key code="19" output="["/>
             <key code="20" output="{"/>
@@ -1042,7 +1042,7 @@
             <key code="34" output="C"/>
             <key code="35" output="L"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="34"/>
+            <key code="37" output="N"/>
             <key code="38" output="H"/>
             <key code="39" output="_"/>
             <key code="40" output="T"/>
@@ -1157,27 +1157,6 @@
         </action>
         <action id="27">
             <when state="none" output=" "/>
-        </action>
-        <action id="28">
-            <when state="none" output="A"/>
-        </action>
-        <action id="29">
-            <when state="none" output="O"/>
-        </action>
-        <action id="30">
-            <when state="none" output="E"/>
-        </action>
-        <action id="31">
-            <when state="none" output="U"/>
-        </action>
-        <action id="32">
-            <when state="none" output="I"/>
-        </action>
-        <action id="33">
-            <when state="none" output="Y"/>
-        </action>
-        <action id="34">
-            <when state="none" output="N"/>
         </action>
         <action id="35">
             <when state="none" output=" "/>
