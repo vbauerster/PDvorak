@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 18:51 (GMT+5)-->
+<!--Last edited by Ukelele version 3.4.0.288 on 2019-10-08 at 18:55 (GMT+5)-->
 <keyboard group="126" id="-19681" name="PDvorak" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="a14" modifiers="f4"/>
@@ -449,7 +449,7 @@
         <keyMap index="3">
             <key code="0" output="å"/>
             <key code="1" output="ø"/>
-            <key code="2" action="0"/>
+            <key code="2" output="´"/>
             <key code="3" output="¨"/>
             <key code="4" output="∂"/>
             <key code="5" output="ˆ"/>
@@ -1119,20 +1119,14 @@
         </keyMap>
     </keyMapSet>
     <actions>
-        <action id="0">
-            <when state="none" next="1"/>
-        </action>
         <action id="1">
             <when state="none" output=" "/>
-            <when state="1" output="´"/>
         </action>
         <action id="10">
             <when state="none" output="o"/>
-            <when state="1" output="ó"/>
         </action>
         <action id="11">
             <when state="none" output="u"/>
-            <when state="1" output="ú"/>
         </action>
         <action id="13">
             <when state="none" output="Y"/>
@@ -1148,27 +1142,21 @@
         </action>
         <action id="2">
             <when state="none" output="A"/>
-            <when state="1" output="Á"/>
         </action>
         <action id="20">
             <when state="none" output="a"/>
-            <when state="1" output="á"/>
         </action>
         <action id="21">
             <when state="none" output="o"/>
-            <when state="1" output="ó"/>
         </action>
         <action id="22">
             <when state="none" output="e"/>
-            <when state="1" output="é"/>
         </action>
         <action id="23">
             <when state="none" output="u"/>
-            <when state="1" output="ú"/>
         </action>
         <action id="24">
             <when state="none" output="i"/>
-            <when state="1" output="í"/>
         </action>
         <action id="25">
             <when state="none" output="y"/>
@@ -1178,31 +1166,24 @@
         </action>
         <action id="27">
             <when state="none" output=" "/>
-            <when state="1" output="´"/>
         </action>
         <action id="28">
             <when state="none" output="A"/>
-            <when state="1" output="Á"/>
         </action>
         <action id="29">
             <when state="none" output="O"/>
-            <when state="1" output="Ó"/>
         </action>
         <action id="3">
             <when state="none" output="E"/>
-            <when state="1" output="É"/>
         </action>
         <action id="30">
             <when state="none" output="E"/>
-            <when state="1" output="É"/>
         </action>
         <action id="31">
             <when state="none" output="U"/>
-            <when state="1" output="Ú"/>
         </action>
         <action id="32">
             <when state="none" output="I"/>
-            <when state="1" output="Í"/>
         </action>
         <action id="33">
             <when state="none" output="Y"/>
@@ -1212,34 +1193,24 @@
         </action>
         <action id="35">
             <when state="none" output=" "/>
-            <when state="1" output="´"/>
         </action>
         <action id="4">
             <when state="none" output="I"/>
-            <when state="1" output="Í"/>
         </action>
         <action id="5">
             <when state="none" output="O"/>
-            <when state="1" output="Ó"/>
         </action>
         <action id="6">
             <when state="none" output="U"/>
-            <when state="1" output="Ú"/>
         </action>
         <action id="7">
             <when state="none" output="a"/>
-            <when state="1" output="á"/>
         </action>
         <action id="8">
             <when state="none" output="e"/>
-            <when state="1" output="é"/>
         </action>
         <action id="9">
             <when state="none" output="i"/>
-            <when state="1" output="í"/>
         </action>
     </actions>
-    <terminators>
-        <when state="1" output="´"/>
-    </terminators>
 </keyboard>
