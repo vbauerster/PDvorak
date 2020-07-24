@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-07-24 at 20:34 (GMT+5)-->
-<keyboard group="126" id="-21938" name="PDvorak" maxout="1">
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-07-25 at 01:04 (GMT+5)-->
+<keyboard group="0" id="15592" name="PDvorak" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="a14" modifiers="f4"/>
         <layout first="18" last="18" mapSet="1fc" modifiers="f4"/>
